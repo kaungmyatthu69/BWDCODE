@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Estonia&family=Roboto+Slab:wght@300;400&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Estonia', cursive;
+            font-family: 'Roboto Slab', serif;
+            
+        }
+        .tittle{
+            color: #09A8fa;
+        }
+        /* Child Selector */
+        .tittle span{
+            color: black;
+        }
+        tbody tr:hover{
+            background-color: #7ddddd;
+            transition: 1s;
+        }
+        thead{
+            background-color: cadetblue;
+            color: white;
+        }
+        thead th{
+            text-align: left;
+        }
+        tbody tr td:first-child{
+            background-color: #7ddddd90;
+            color:black;
+        }
+        table{
+            border-collapse: collapse;
+            width: 100%;
+        }
+        tr{
+            border-bottom: 1px solid black;
+        }
+        td,th{
+            
+            /* border: 1px solid black; */
+            padding: 10px 15px;
+        }
+        .text-right{
+            text-align: right;
+        }
+        /* The !important rule in CSS is used to add more importance to a property/value than normal */
+        .total{
+            background-color: white !important;
+            text-align: center;
+            font-weight: bolder;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1 class="tittle">Table <span>CSS</span></h1>
+    <table>
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Courses</th>
+                <th class="text-right">Fees</th>
+                <th class="text-right">Discount</th>
+                <th class="text-right">Cost</th>
+                
+            </tr>
+        </thead>
+       <tbody>
+            <tr>
+                <td>1</td>
+                <td>BWD( Basic Web Design)</td>
+                <td class="text-right">100%</td>
+                <td class="text-right">20000</td>
+                <td class="text-right">0</td>
+        </tr>
+        <tr>
+                <td>2</td>
+                <td>SWD(Special Web Design)</td>
+                <td class="text-right">100000</td>
+                <td class="text-right">80%</td>
+                <td class="text-right">20000</td>
+        </tr>
+        <tr>
+                <td>3</td>
+                <td>Web Dev(Web Devepolment)</td>
+                <td class="text-right">100000</td>
+                <td class="text-right">50%</td>
+                <td class="text-right">50000</td>
+        </tr>
+        <tr>
+                <td>4</td>
+                <td>Laravel(Laravel Framework)</td>
+                <td class="text-right">100000</td>
+                <td class="text-right">50%</td>
+                <td class="text-right">50000</td>
+        </tr>
+        <tr>
+            <td colspan="4" class="total">Total</td>
+            <td>120000</td>
+        </tr>
+       </tbody>
+    </table>
+</body>
+
+</html>

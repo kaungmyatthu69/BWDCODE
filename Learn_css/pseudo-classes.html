@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 500px;
+            border: 2px solid black;
+           margin: 100px auto;
+           padding: 10px;
+           text-align: center;
+           transition: 2s;
+
+        }
+        .box:hover{
+            background-color: gray;
+            color: white;
+        }
+        .box:active{
+            background-color: green;
+            color: red;
+        }
+        #text:focus{
+            background-color: gray;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum debitis deserunt ipsum. Natus voluptas
+            laboriosam porro repellendus ad, architecto nostrum quibusdam consequuntur provident iste commodi? Quis
+            possimus ex aut incidunt?
+        </p>
+    </div>
+    <div>
+        <textarea name="text" id="text" cols="30" rows="10" style="transition: 2s;"></textarea>
+    </div>
+</body>
+
+</html>

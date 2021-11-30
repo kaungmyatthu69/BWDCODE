@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Estonia&family=Roboto+Slab:wght@300;400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <style>
+        * {
+            font-family: 'Estonia', cursive;
+            font-family: 'Roboto Slab', serif;
+        }
+
+        .btn {
+
+            color: white;
+
+            text-decoration: none;
+            padding: 5px 10px;
+            margin: 10px 20px;
+            font-size: 20px;
+            transition: 1s;
+            display: inline-block;
+        }
+
+        .btn-primary {
+            background-color: rgb(79, 79, 226);
+            border-color: rgb(79, 79, 226);
+        }
+
+        .btn-outline-primary {
+            background-color: white;
+            border: 2px solid #566ae2;
+            color: #566ae2;
+
+        }
+
+        /*.btn:hover{
+            background-color: red;
+            border-color: red;
+        }*/
+        .btn:active {
+            background-color: rgb(37, 37, 141);
+            border-color: rgb(37, 37, 141);
+        }
+
+        .btn-secondary {
+            background-color: rgb(226, 174, 29);
+
+            border: 2px solid rgb(226, 174, 29);
+
+
+        }
+
+        .btn-secondary:active {
+            background-color: rgb(163, 126, 22);
+            border-color: rgb(163, 126, 22);
+        }
+
+        .btn-dark {
+            background-color: black;
+
+            border: 2px solid black;
+
+        }
+
+        .btn-dark:active {
+            background-color: rgb(49, 46, 46);
+            border-color: rgb(49, 46, 46);
+        }
+
+        .btn-outline-primary:hover {
+            background-color: #566ae2;
+            color: white;
+        }
+
+        .roundes {
+            border-radius: 10px;
+        }
+
+        .shadow {
+            box-shadow: 3px 8px 15px rgba(107, 53, 53, 0.1);
+        }
+
+      
+    </style>
+</head>
+
+<body>
+    <button class="btn btn-primary">Normal button</button>
+    <a href="#" class="btn btn-primary">A tag button</a>
+    <button class=" btn btn-secondary">Secondary Button</button>
+    <button class="btn btn-dark">dark button </button>
+    <hr>
+    <button class="btn btn-outline-primary">Outline button</button>
+    <button class="btn btn-secondary">
+        <i class="fas fa-home"></i>
+    </button>
+    <button class="btn btn-outline-primary">
+        <i class="fas fa-car"></i>
+    </button>
+    <hr>
+    <h1>Roundes Buttons</h1>
+    <button class="btn btn-outline-primary roundes">Outline button with roundes border</button>
+    <button class="btn btn-outline-primary roundes">
+        <i class="fas fa-car"></i>
+      
+
+
+</body>
+
+</html>

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Estonia&family=Roboto+Slab:wght@300;400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <style>
+        * {
+            font-family: 'Estonia', cursive;
+            font-family: 'Roboto Slab', serif
+        }
+
+        body {
+            padding: 15px;
+            background-color: rgb(231, 229, 229);
+        }
+
+        .card {
+            width: 300px;
+            vertical-align: right;
+            /* border: 1px solid black; */
+            border-radius: 15px;
+            display: inline-block;
+            overflow: hidden;
+            margin: 10px;
+            background-color: #fff;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+
+        .card-body {
+            padding: 15px;
+        }
+
+        .card-title {
+            margin-top: 0px;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .card-paragraph {
+            margin-bottom: 0px;
+            color: rgb(121, 113, 113);
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .text-right {
+            text-align: right;
+        }
+
+        .carddesign:hover {
+            background-color: #00bfff;
+            color: white;
+            transition: 0.5s;
+        }
+
+        .text-left {
+            text-align: left;
+        }
+
+        .card-img {
+            width: 100%;
+            display: block;
+        }
+
+        .card-icon {
+            margin: 30px 0;
+        }
+
+        .add-to-card {
+            width: 100px;
+            height: 40px;
+            background-color: turquoise;
+            border: none;
+            border-radius: 15px;
+            display: block;
+            margin-left: auto;
+            margin-top: -20px;
+            position: relative;
+            margin-right: 15px;
+
+        }
+
+        .seemore {
+            width: 150px;
+            height: 40px;
+            background-color: blueviolet;
+            display: block;
+            margin: auto;
+            border-radius: 10px;
+            margin-bottom: -20px;
+            border: none;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+
+        <div class="card-body">
+            <p class="card-title">Min Gar Lar Par</p>
+            <p class="card-paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ipsam reprehenderit id
+
+            </p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-body">
+            <p class="card-title">Min Gar Lar Par</p>
+            <p class="card-paragraph text-right">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ipsam reprehenderit id
+
+            </p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-body">
+            <p class="card-title">Min Gar Lar Par</p>
+            <p class="card-paragraph text-left">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ipsam reprehenderit id
+
+            </p>
+        </div>
+    </div>
+    
+    <div class="card carddesign">
+        <img src="/Learn_css/img/macbook.jpg" alt="" class="card-img">
+
+        <div class="card-body">
+            <p class="card-title">Macbook</p>
+            <p class="card-paragraph text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ipsam reprehenderit id
+
+            </p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="/Learn_css/img/v-a-tao-rJkEd3pdsSs-unsplash.jpg" alt="" class="card-img">
+        <button class="add-to-card">
+            <i class="fas fa-plus"></i>
+        </button>
+
+        <div class="card-body text-center">
+
+            <p class="card-title">IPhone 13</p>
+            <p class="card-paragraph ">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ipsam reprehenderit id
+
+            </p>
+        </div>
+    </div>
+    <div class="card  " style="overflow: visible;">
+
+        <div class="card-body text-center">
+            <i class="fas fa-home fa-3x card-icon"></i>
+            <p class="card-title">Hello Everybody</p>
+            <p class="card-paragraph ">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ipsam reprehenderit id
+
+            </p>
+        </div>
+        <button class="seemore">See More</button>
+    </div>
+    <div class="card " style="background-image: url(/Learn_css/img/nick-iliasov-i0fCUofGjV8-unsplash.jpg);">
+
+        <div class="card-body text-center">
+            <i class="fas fa-home fa-3x card-icon"></i>
+            <p class="card-title">Min Gar Lar Par</p>
+            <p class="card-paragraph ">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ipsam reprehenderit id
+
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
